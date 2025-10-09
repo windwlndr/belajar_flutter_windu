@@ -27,17 +27,30 @@ class ProfilWidget extends StatelessWidget {
             style: TextStyle(
               fontSize: 36,
               fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline
+              decoration: TextDecoration.underline,
+              color: Colors.indigo
             ),
           ),
 
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [Icon(Icons.location_on), Text("Central Jakarta City")],
+            children: [
+              Icon(Icons.location_on, color: Colors.blueGrey), 
+              Text("Central Jakarta City",
+                style: TextStyle(
+                  fontSize: 18,
+                  fontFamily: "Times New Roman"
+                ),
+              )
+            ],
           ),
           
           Text("Saya adalah seorang freshgraduate dari Prodi Pendidikan Teknik Informatika dan Komputer Universitas Negeri Jakarta",
             textAlign: TextAlign.center,
+            style: TextStyle(
+              fontFamily: "Arial",
+              fontSize: 12
+            ),
           ),
 
         ],
