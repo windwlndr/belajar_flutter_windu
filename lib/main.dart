@@ -1,4 +1,5 @@
 import 'package:belajar_flutter_windu/day7/tugas_1.dart';
+import 'package:belajar_flutter_windu/day9/tugas_2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ProfilWidget(),
+      home: LayoutProfilLengkap(),
     );
   }
 }
