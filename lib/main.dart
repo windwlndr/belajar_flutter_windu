@@ -3,6 +3,7 @@ import 'package:belajar_flutter_windu/day10/tugas_4.dart';
 import 'package:belajar_flutter_windu/day12/state/state1.dart';
 import 'package:belajar_flutter_windu/day12/tugas_5/elevated_button.dart';
 import 'package:belajar_flutter_windu/day12/tugas_5/tugas_5.dart';
+import 'package:belajar_flutter_windu/day13/tugas_slicing.dart';
 import 'package:belajar_flutter_windu/day7/tugas_1.dart';
 import 'package:belajar_flutter_windu/day9/tugas_2.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Tugas5Flutter(),
+      home: TugasSlicingDay13(),
     );
   }
 }
